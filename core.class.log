@@ -1,0 +1,102 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215523370978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A1306E44D81414636C7',
+    participant: undefined
+  },
+  messageTimestamp: 1733620320,
+  pushName: 'José Luis Aguilar',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5215523370978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215523370978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A6A7D5F98EE26A13494',
+    participant: undefined
+  },
+  messageTimestamp: 1733620323,
+  pushName: 'José Luis Aguilar',
+  broadcast: false,
+  message: Message {
+    conversation: 'Rastreo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Rastreo',
+  from: '5215523370978'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f4898289-b4dd-4e82-9f29-3cafb927913d',
+  keyword: 'key_28660cbc-79e4-40c9-bd7a-48ee0dc6f84b',
+  answer: '¡Bienvenido al DACBot de rastreo de guías! 🤖\n' +
+    '\n' +
+    'Por favor, envíame el número de guía que deseas rastrear.📦⬇️\n' +
+    '(Solo Ingresa Dígitos)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '73dbbb17e0a1b35d9e99e27175e0bafc'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215523370978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4AA0EBFB2E5239B775',
+    participant: undefined
+  },
+  messageTimestamp: 1733620342,
+  pushName: 'José Luis Aguilar',
+  broadcast: false,
+  message: Message {
+    conversation: '26361742',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '26361742',
+  from: '5215523370978'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8737dff4-80d0-48e9-8ade-bc678dbe801b',
+  keyword: 'ans_f4898289-b4dd-4e82-9f29-3cafb927913d',
+  answer: 'Escribe rastreo para volver a buscar otra guía 🤖👍🏻',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4fc82c41efe27fc7a889bf695b5254b2'
+}
